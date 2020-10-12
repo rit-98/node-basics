@@ -1,2 +1,2 @@
 # node-basics
-basics MVC architecture of node js which accepts user inputs and stores the information in a database
+A basic MVC architecture of node js which accepts user inputs and stores the information in a database
