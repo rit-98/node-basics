@@ -1,0 +1,20 @@
+<p>Hello world <%= title %>!</p>
+<form method="POST" action="/">
+    <input type="text"  id="nid" name="name">
+    <input type="email" id="eid" name="email">
+    <input type="password" id="pid" name="password">
+    <button type="submit" name="submit"></button>
+
+</form>
+
+<script>
+    const d = document.querySelector('form');
+    const n = document.getElementById('nid');
+    const e = document.getElementById('eid');
+    const p = document.getElementById('pid');
+    d.addEventListener('submit', () => {
+        console.log(n);
+        console.log(e);
+        console.log(p);
+    } )
+</script>
